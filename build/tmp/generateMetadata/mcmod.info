@@ -1,0 +1,23 @@
+[
+    {
+        "modid": "sandbox",
+        "name": "Sandbox",
+        "version": "${version}",
+        "dependencies": [
+            "spongeapi@7.0.0"
+        ],
+        "requiredMods": [
+            "spongeapi@7.0.0"
+        ],
+        "mcversion": "${mcversion}",
+        "updateUrl": "",
+        "credits": "",
+        "logoFile": "",
+        "screenshots": []
+    },
+    {
+        "modid": "modwhitelist",
+        "name": "ModWhitelist",
+        "version": "1.0.0"
+    }
+]

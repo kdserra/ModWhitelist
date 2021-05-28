@@ -1,0 +1,337 @@
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "sandbox\ModWhitelist.java" md5: 6b9d2e2f7033fa5319ba4223682a57a8
+Cache Hit!
+@|sandbox\ModWhitelist.java|8|15|sandbox|package|sandbox|(file)
+Class Start: sandbox.ModWhitelist
+   @|sandbox\ModWhitelist.java|55|67|ModWhitelist|class|sandbox.ModWhitelist
+   Method Start: isModlistWhitelisted(Ljava/util/List;Ljava/util/List;)Z
+      @|sandbox\ModWhitelist.java|206|218|modWhitelist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|modWhitelist|0
+      @|sandbox\ModWhitelist.java|233|246|playerModlist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|playerModlist|1
+      @|sandbox\ModWhitelist.java|172|192|isModlistWhitelisted|method|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z
+      @|sandbox\ModWhitelist.java|193|197|List|class|java.util.List
+      @|sandbox\ModWhitelist.java|198|204|String|class|java.lang.String
+      @|sandbox\ModWhitelist.java|220|224|List|class|java.util.List
+      @|sandbox\ModWhitelist.java|225|231|String|class|java.lang.String
+      @|sandbox\ModWhitelist.java|490|503|playerModlist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|playerModlist|1
+      @|sandbox\ModWhitelist.java|504|508|size|method|java.util.Collection|size|()I
+      @|sandbox\ModWhitelist.java|717|729|modWhitelist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|modWhitelist|0
+      @|sandbox\ModWhitelist.java|730|734|size|method|java.util.Collection|size|()I
+      @|sandbox\ModWhitelist.java|881|894|playerModlist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|playerModlist|1
+      @|sandbox\ModWhitelist.java|895|898|get|method|java.util.List|get|(I)Ljava/lang/Object;
+      @|sandbox\ModWhitelist.java|902|908|equals|method|java.lang.String|equals|(Ljava/lang/Object;)Z
+      @|sandbox\ModWhitelist.java|909|921|modWhitelist|param|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z|modWhitelist|0
+      @|sandbox\ModWhitelist.java|922|925|get|method|java.util.List|get|(I)Ljava/lang/Object;
+   Method End: isModlistWhitelisted(Ljava/util/List;Ljava/util/List;)Z
+Class End  : sandbox.ModWhitelist
+endProcessing "sandbox\ModWhitelist.java"
+
+startProcessing "sandbox\Sandbox.java" md5: eb1fbfd98cdb3a9eddbced59622d16e1
+Cache Hit!
+@|sandbox\Sandbox.java|8|15|sandbox|package|sandbox|(file)
+Class Start: sandbox.Sandbox
+   @|sandbox\Sandbox.java|673|679|Plugin|class|org.spongepowered.api.plugin.Plugin
+   @|sandbox\Sandbox.java|680|682|id|method|org.spongepowered.api.plugin.Plugin|id|()Ljava/lang/String;
+   @|sandbox\Sandbox.java|696|700|name|method|org.spongepowered.api.plugin.Plugin|name|()Ljava/lang/String;
+   @|sandbox\Sandbox.java|727|734|Sandbox|class|sandbox.Sandbox
+   @|sandbox\Sandbox.java|762|768|Logger|class|org.slf4j.Logger
+   @|sandbox\Sandbox.java|743|749|Inject|class|com.google.inject.Inject
+   @|sandbox\Sandbox.java|762|768|Logger|class|org.slf4j.Logger
+   @|sandbox\Sandbox.java|769|775|logger|field|sandbox.Sandbox|logger|
+   @|sandbox\Sandbox.java|796|802|Object|class|java.lang.Object
+   @|sandbox\Sandbox.java|796|802|Object|class|java.lang.Object
+   @|sandbox\Sandbox.java|803|809|plugin|field|sandbox.Sandbox|plugin|
+   Method Start: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|sandbox\Sandbox.java|1001|1006|event|param|sandbox.Sandbox|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V|event|0
+      @|sandbox\Sandbox.java|939|947|Listener|class|org.spongepowered.api.event.Listener
+      @|sandbox\Sandbox.java|964|977|onServerStart|method|sandbox.Sandbox|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|sandbox\Sandbox.java|978|1000|GameStartedServerEvent|class|org.spongepowered.api.event.game.state.GameStartedServerEvent
+      @|sandbox\Sandbox.java|1022|1028|plugin|field|sandbox.Sandbox|plugin
+      @|sandbox\Sandbox.java|1045|1049|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|1069|1073|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|1074|1081|builder|method|org.spongepowered.api.text.Text|builder|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText$Builder;
+      @|sandbox\Sandbox.java|1087|1092|color|method|org.spongepowered.api.text.Text.Builder|color|(Lorg/spongepowered/api/text/format/TextColor;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1093|1103|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\Sandbox.java|1104|1109|BLACK|field|org.spongepowered.api.text.format.TextColors|BLACK
+      @|sandbox\Sandbox.java|1111|1116|style|method|org.spongepowered.api.text.Text.Builder|style|([Lorg/spongepowered/api/text/format/TextStyle;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1117|1127|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\Sandbox.java|1128|1132|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\Sandbox.java|1134|1140|append|method|org.spongepowered.api.text.Text.Builder|append|([Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1158|1162|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|1163|1170|builder|method|org.spongepowered.api.text.Text|builder|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText$Builder;
+      @|sandbox\Sandbox.java|1188|1193|color|method|org.spongepowered.api.text.Text.Builder|color|(Lorg/spongepowered/api/text/format/TextColor;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1194|1204|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\Sandbox.java|1205|1209|GOLD|field|org.spongepowered.api.text.format.TextColors|GOLD
+      @|sandbox\Sandbox.java|1211|1216|style|method|org.spongepowered.api.text.Text.Builder|style|([Lorg/spongepowered/api/text/format/TextStyle;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1217|1227|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\Sandbox.java|1228|1232|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\Sandbox.java|1234|1239|build|method|org.spongepowered.api.text.Text.Builder|build|()Lorg/spongepowered/api/text/Text;
+      @|sandbox\Sandbox.java|1243|1249|append|method|org.spongepowered.api.text.Text.Builder|append|([Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1275|1279|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|1280|1287|builder|method|org.spongepowered.api.text.Text|builder|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText$Builder;
+      @|sandbox\Sandbox.java|1293|1298|color|method|org.spongepowered.api.text.Text.Builder|color|(Lorg/spongepowered/api/text/format/TextColor;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1299|1309|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\Sandbox.java|1310|1315|BLACK|field|org.spongepowered.api.text.format.TextColors|BLACK
+      @|sandbox\Sandbox.java|1317|1322|style|method|org.spongepowered.api.text.Text.Builder|style|([Lorg/spongepowered/api/text/format/TextStyle;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\Sandbox.java|1323|1333|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\Sandbox.java|1334|1338|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\Sandbox.java|1340|1345|build|method|org.spongepowered.api.text.Text.Builder|build|()Lorg/spongepowered/api/text/Text;
+      @|sandbox\Sandbox.java|1358|1363|build|method|org.spongepowered.api.text.Text.Builder|build|()Lorg/spongepowered/api/text/Text;
+      @|sandbox\Sandbox.java|1378|1391|CommandHelper|class|sandbox.helpers.CommandHelper
+      @|sandbox\Sandbox.java|1392|1408|setCommandPrefix|method|sandbox.helpers.CommandHelper|setCommandPrefix|(Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\Sandbox.java|1436|1449|CommandHelper|class|sandbox.helpers.CommandHelper
+      @|sandbox\Sandbox.java|1450|1465|registerCommand|method|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V
+      @|sandbox\Sandbox.java|1466|1472|plugin|field|sandbox.Sandbox|plugin
+      @|sandbox\Sandbox.java|1478|1489|HelpCommand|class|sandbox.commands.HelpCommand
+      @|sandbox\Sandbox.java|1515|1519|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|1520|1522|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|sandbox\Sandbox.java|1597|1603|logger|field|sandbox.Sandbox|logger
+      @|sandbox\Sandbox.java|1604|1608|info|method|org.slf4j.Logger|info|(Ljava/lang/String;)V
+   Method End: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+   Method Start: playerJoinedServer(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V
+      @|sandbox\Sandbox.java|1719|1736|playerJoinedEvent|param|sandbox.Sandbox|playerJoinedServer|(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V|playerJoinedEvent|0
+      @|sandbox\Sandbox.java|1648|1656|Listener|class|org.spongepowered.api.event.Listener
+      @|sandbox\Sandbox.java|1673|1691|playerJoinedServer|method|sandbox.Sandbox|playerJoinedServer|(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V
+      @|sandbox\Sandbox.java|1692|1718|ClientConnectionEvent.Join|class|org.spongepowered.api.event.network.ClientConnectionEvent.Join
+      @|sandbox\Sandbox.java|1752|1756|List|class|java.util.List
+      @|sandbox\Sandbox.java|1757|1763|String|class|java.lang.String
+      @|sandbox\Sandbox.java|1783|1788|Lists|class|com.google.common.collect.Lists
+      @|sandbox\Sandbox.java|1789|1801|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
+      @|sandbox\Sandbox.java|1889|1893|List|class|java.util.List
+      @|sandbox\Sandbox.java|1894|1900|String|class|java.lang.String
+      @|sandbox\Sandbox.java|1918|1930|PlayerHelper|class|sandbox.helpers.PlayerHelper
+      @|sandbox\Sandbox.java|1931|1944|getPlayerMods|method|sandbox.helpers.PlayerHelper|getPlayerMods|(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;
+      @|sandbox\Sandbox.java|1945|1962|playerJoinedEvent|param|sandbox.Sandbox|playerJoinedServer|(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V|playerJoinedEvent|0
+      @|sandbox\Sandbox.java|1963|1978|getTargetEntity|method|org.spongepowered.api.event.entity.TargetEntityEvent|getTargetEntity|()Lorg/spongepowered/api/entity/Entity;
+      @|sandbox\Sandbox.java|2040|2052|ModWhitelist|class|sandbox.ModWhitelist
+      @|sandbox\Sandbox.java|2053|2073|isModlistWhitelisted|method|sandbox.ModWhitelist|isModlistWhitelisted|(Ljava/util/List;Ljava/util/List;)Z
+      @|sandbox\Sandbox.java|2182|2188|String|class|java.lang.String
+      @|sandbox\Sandbox.java|2252|2256|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|2267|2271|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\Sandbox.java|2272|2274|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\Sandbox.java|2275|2285|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\Sandbox.java|2286|2289|RED|field|org.spongepowered.api.text.format.TextColors|RED
+      @|sandbox\Sandbox.java|2291|2301|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\Sandbox.java|2302|2306|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\Sandbox.java|2332|2344|PlayerHelper|class|sandbox.helpers.PlayerHelper
+      @|sandbox\Sandbox.java|2345|2354|banPlayer|method|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\Sandbox.java|2355|2372|playerJoinedEvent|param|sandbox.Sandbox|playerJoinedServer|(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V|playerJoinedEvent|0
+      @|sandbox\Sandbox.java|2373|2388|getTargetEntity|method|org.spongepowered.api.event.entity.TargetEntityEvent|getTargetEntity|()Lorg/spongepowered/api/entity/Entity;
+      @|sandbox\Sandbox.java|2392|2400|BanTypes|class|org.spongepowered.api.util.ban.BanTypes
+      @|sandbox\Sandbox.java|2401|2408|PROFILE|field|org.spongepowered.api.util.ban.BanTypes|PROFILE
+   Method End: playerJoinedServer(Lorg/spongepowered/api/event/network/ClientConnectionEvent$Join;)V
+Class End  : sandbox.Sandbox
+endProcessing "sandbox\Sandbox.java"
+
+startProcessing "sandbox\commands\Commands.java" md5: c88df2153a27469eda7cf79a168a69fe
+Cache Hit!
+@|sandbox\commands\Commands.java|8|24|sandbox.commands|package|sandbox.commands|(file)
+Class Start: sandbox.commands.Commands
+   @|sandbox\commands\Commands.java|198|206|Commands|class|sandbox.commands.Commands
+   Method Start: makeCmd(Ljava/lang/Object;)V
+      @|sandbox\commands\Commands.java|247|253|plugin|param|sandbox.commands.Commands|makeCmd|(Ljava/lang/Object;)V|plugin|0
+      @|sandbox\commands\Commands.java|232|239|makeCmd|method|sandbox.commands.Commands|makeCmd|(Ljava/lang/Object;)V
+      @|sandbox\commands\Commands.java|240|246|Object|class|java.lang.Object
+      @|sandbox\commands\Commands.java|269|280|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|sandbox\commands\Commands.java|311|322|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|sandbox\commands\Commands.java|323|330|builder|method|org.spongepowered.api.command.spec.CommandSpec|builder|()Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\commands\Commands.java|350|361|description|method|org.spongepowered.api.command.spec.CommandSpec.Builder|description|(Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\commands\Commands.java|362|366|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\Commands.java|367|369|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|sandbox\commands\Commands.java|425|435|permission|method|org.spongepowered.api.command.spec.CommandSpec.Builder|permission|(Ljava/lang/String;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\commands\Commands.java|477|485|executor|method|org.spongepowered.api.command.spec.CommandSpec.Builder|executor|(Lorg/spongepowered/api/command/spec/CommandExecutor;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\commands\Commands.java|490|501|HelpCommand|class|sandbox.commands.HelpCommand
+      @|sandbox\commands\Commands.java|522|527|build|method|org.spongepowered.api.command.spec.CommandSpec.Builder|build|()Lorg/spongepowered/api/command/spec/CommandSpec;
+      @|sandbox\commands\Commands.java|541|547|Sponge|class|org.spongepowered.api.Sponge
+      @|sandbox\commands\Commands.java|548|565|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|sandbox\commands\Commands.java|568|576|register|method|org.spongepowered.api.command.CommandManager|register|(Ljava/lang/Object;Lorg/spongepowered/api/command/CommandCallable;[Ljava/lang/String;)Ljava/util/Optional;
+      @|sandbox\commands\Commands.java|577|583|plugin|param|sandbox.commands.Commands|makeCmd|(Ljava/lang/Object;)V|plugin|0
+   Method End: makeCmd(Ljava/lang/Object;)V
+Class End  : sandbox.commands.Commands
+endProcessing "sandbox\commands\Commands.java"
+
+startProcessing "sandbox\commands\HelpCommand.java" md5: fdd566929fe794c78f3e0f3694240c99
+Cache Hit!
+@|sandbox\commands\HelpCommand.java|8|24|sandbox.commands|package|sandbox.commands|(file)
+Class Start: sandbox.commands.HelpCommand
+   @|sandbox\commands\HelpCommand.java|629|640|HelpCommand|class|sandbox.commands.HelpCommand
+   @|sandbox\commands\HelpCommand.java|652|667|CommandExecutor|class|org.spongepowered.api.command.spec.CommandExecutor
+   Method Start: execute(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+      @|sandbox\commands\HelpCommand.java|732|735|src|param|sandbox.commands.HelpCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|src|0
+      @|sandbox\commands\HelpCommand.java|752|756|args|param|sandbox.commands.HelpCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|args|1
+      @|sandbox\commands\HelpCommand.java|676|684|Override|class|java.lang.Override
+      @|sandbox\commands\HelpCommand.java|696|709|CommandResult|class|org.spongepowered.api.command.CommandResult
+      @|sandbox\commands\HelpCommand.java|710|717|execute|method|org.spongepowered.api.command.spec.CommandExecutor|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+      @|sandbox\commands\HelpCommand.java|718|731|CommandSource|class|org.spongepowered.api.command.CommandSource
+      @|sandbox\commands\HelpCommand.java|737|751|CommandContext|class|org.spongepowered.api.command.args.CommandContext
+      @|sandbox\commands\HelpCommand.java|765|781|CommandException|class|org.spongepowered.api.command.CommandException
+      @|sandbox\commands\HelpCommand.java|796|800|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|810|814|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|815|817|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|819|823|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|824|826|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|827|837|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\commands\HelpCommand.java|838|843|BLACK|field|org.spongepowered.api.text.format.TextColors|BLACK
+      @|sandbox\commands\HelpCommand.java|845|855|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\commands\HelpCommand.java|856|860|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\commands\HelpCommand.java|890|894|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|895|897|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|898|908|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\commands\HelpCommand.java|909|913|GOLD|field|org.spongepowered.api.text.format.TextColors|GOLD
+      @|sandbox\commands\HelpCommand.java|915|925|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\commands\HelpCommand.java|926|930|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\commands\HelpCommand.java|972|976|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|977|979|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|980|990|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\commands\HelpCommand.java|991|996|BLACK|field|org.spongepowered.api.text.format.TextColors|BLACK
+      @|sandbox\commands\HelpCommand.java|998|1008|TextStyles|class|org.spongepowered.api.text.format.TextStyles
+      @|sandbox\commands\HelpCommand.java|1009|1013|BOLD|field|org.spongepowered.api.text.format.TextStyles|BOLD
+      @|sandbox\commands\HelpCommand.java|1034|1040|String|class|java.lang.String
+      @|sandbox\commands\HelpCommand.java|1467|1476|TextColor|class|org.spongepowered.api.text.format.TextColor
+      @|sandbox\commands\HelpCommand.java|1488|1498|TextColors|class|org.spongepowered.api.text.format.TextColors
+      @|sandbox\commands\HelpCommand.java|1499|1503|GOLD|field|org.spongepowered.api.text.format.TextColors|GOLD
+      @|sandbox\commands\HelpCommand.java|1546|1550|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|1563|1567|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|1568|1570|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      Field: Array Length, skipping
+      @|sandbox\commands\HelpCommand.java|1776|1785|toBuilder|method|org.spongepowered.api.text.Text|toBuilder|()Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\commands\HelpCommand.java|1788|1794|append|method|org.spongepowered.api.text.Text.Builder|append|([Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\commands\HelpCommand.java|1805|1811|append|method|org.spongepowered.api.text.Text.Builder|append|([Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/text/Text$Builder;
+      @|sandbox\commands\HelpCommand.java|1813|1817|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\commands\HelpCommand.java|1818|1820|of|method|org.spongepowered.api.text.Text|of|([Ljava/lang/Object;)Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|1845|1850|build|method|org.spongepowered.api.text.Text.Builder|build|()Lorg/spongepowered/api/text/Text;
+      @|sandbox\commands\HelpCommand.java|1874|1877|src|param|sandbox.commands.HelpCommand|execute|(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;|src|0
+      @|sandbox\commands\HelpCommand.java|1878|1889|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\commands\HelpCommand.java|1917|1930|CommandResult|class|org.spongepowered.api.command.CommandResult
+      @|sandbox\commands\HelpCommand.java|1931|1938|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+   Method End: execute(Lorg/spongepowered/api/command/CommandSource;Lorg/spongepowered/api/command/args/CommandContext;)Lorg/spongepowered/api/command/CommandResult;
+Class End  : sandbox.commands.HelpCommand
+endProcessing "sandbox\commands\HelpCommand.java"
+
+startProcessing "sandbox\helpers\CommandHelper.java" md5: a984f44180cfd91a7ce370125e5d871c
+@|sandbox\helpers\CommandHelper.java|8|23|sandbox.helpers|package|sandbox.helpers|(file)
+Class Start: sandbox.helpers.CommandHelper
+   @|sandbox\helpers\CommandHelper.java|292|305|CommandHelper|class|sandbox.helpers.CommandHelper
+   @|sandbox\helpers\CommandHelper.java|326|330|Text|class|org.spongepowered.api.text.Text
+   @|sandbox\helpers\CommandHelper.java|326|330|Text|class|org.spongepowered.api.text.Text
+   @|sandbox\helpers\CommandHelper.java|331|344|commandPrefix|field|sandbox.helpers.CommandHelper|commandPrefix|
+   Method Start: setCommandPrefix(Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\helpers\CommandHelper.java|392|408|newCommandPrefix|param|sandbox.helpers.CommandHelper|setCommandPrefix|(Lorg/spongepowered/api/text/Text;)V|newCommandPrefix|0
+      @|sandbox\helpers\CommandHelper.java|370|386|setCommandPrefix|method|sandbox.helpers.CommandHelper|setCommandPrefix|(Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\helpers\CommandHelper.java|387|391|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\helpers\CommandHelper.java|424|437|CommandHelper|class|sandbox.helpers.CommandHelper
+      @|sandbox\helpers\CommandHelper.java|438|451|commandPrefix|field|sandbox.helpers.CommandHelper|commandPrefix
+      @|sandbox\helpers\CommandHelper.java|454|470|newCommandPrefix|param|sandbox.helpers.CommandHelper|setCommandPrefix|(Lorg/spongepowered/api/text/Text;)V|newCommandPrefix|0
+   Method End: setCommandPrefix(Lorg/spongepowered/api/text/Text;)V
+   Method Start: registerCommand(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V
+      @|sandbox\helpers\CommandHelper.java|525|531|plugin|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|plugin|0
+      @|sandbox\helpers\CommandHelper.java|549|560|cmdExecutor|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|cmdExecutor|1
+      @|sandbox\helpers\CommandHelper.java|569|576|command|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|command|2
+      @|sandbox\helpers\CommandHelper.java|583|594|description|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|description|3
+      @|sandbox\helpers\CommandHelper.java|603|613|permission|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|permission|4
+      @|sandbox\helpers\CommandHelper.java|502|517|registerCommand|method|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V
+      @|sandbox\helpers\CommandHelper.java|518|524|Object|class|java.lang.Object
+      @|sandbox\helpers\CommandHelper.java|533|548|CommandExecutor|class|org.spongepowered.api.command.spec.CommandExecutor
+      @|sandbox\helpers\CommandHelper.java|562|568|String|class|java.lang.String
+      @|sandbox\helpers\CommandHelper.java|578|582|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\helpers\CommandHelper.java|596|602|String|class|java.lang.String
+      @|sandbox\helpers\CommandHelper.java|629|640|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|sandbox\helpers\CommandHelper.java|679|690|CommandSpec|class|org.spongepowered.api.command.spec.CommandSpec
+      @|sandbox\helpers\CommandHelper.java|691|698|builder|method|org.spongepowered.api.command.spec.CommandSpec|builder|()Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\helpers\CommandHelper.java|726|737|description|method|org.spongepowered.api.command.spec.CommandSpec.Builder|description|(Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\helpers\CommandHelper.java|738|749|description|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|description|3
+      @|sandbox\helpers\CommandHelper.java|776|786|permission|method|org.spongepowered.api.command.spec.CommandSpec.Builder|permission|(Ljava/lang/String;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\helpers\CommandHelper.java|787|797|permission|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|permission|4
+      @|sandbox\helpers\CommandHelper.java|824|832|executor|method|org.spongepowered.api.command.spec.CommandSpec.Builder|executor|(Lorg/spongepowered/api/command/spec/CommandExecutor;)Lorg/spongepowered/api/command/spec/CommandSpec$Builder;
+      @|sandbox\helpers\CommandHelper.java|833|844|cmdExecutor|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|cmdExecutor|1
+      @|sandbox\helpers\CommandHelper.java|871|876|build|method|org.spongepowered.api.command.spec.CommandSpec.Builder|build|()Lorg/spongepowered/api/command/spec/CommandSpec;
+      @|sandbox\helpers\CommandHelper.java|890|896|Sponge|class|org.spongepowered.api.Sponge
+      @|sandbox\helpers\CommandHelper.java|897|914|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|sandbox\helpers\CommandHelper.java|917|925|register|method|org.spongepowered.api.command.CommandManager|register|(Ljava/lang/Object;Lorg/spongepowered/api/command/CommandCallable;[Ljava/lang/String;)Ljava/util/Optional;
+      @|sandbox\helpers\CommandHelper.java|926|932|plugin|param|sandbox.helpers.CommandHelper|registerCommand|(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V|plugin|0
+   Method End: registerCommand(Ljava/lang/Object;Lorg/spongepowered/api/command/spec/CommandExecutor;Ljava/lang/String;Lorg/spongepowered/api/text/Text;Ljava/lang/String;)V
+Class End  : sandbox.helpers.CommandHelper
+endProcessing "sandbox\helpers\CommandHelper.java"
+
+startProcessing "sandbox\helpers\PlayerHelper.java" md5: 8a1f76f01e8c82c4e52a6319a9d90c05
+Cache Hit!
+@|sandbox\helpers\PlayerHelper.java|8|23|sandbox.helpers|package|sandbox.helpers|(file)
+Class Start: sandbox.helpers.PlayerHelper
+   @|sandbox\helpers\PlayerHelper.java|529|541|PlayerHelper|class|sandbox.helpers.PlayerHelper
+   Method Start: banPlayer(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\helpers\PlayerHelper.java|584|590|player|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|player|0
+      @|sandbox\helpers\PlayerHelper.java|600|607|banType|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|banType|1
+      @|sandbox\helpers\PlayerHelper.java|614|623|banReason|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|banReason|2
+      @|sandbox\helpers\PlayerHelper.java|567|576|banPlayer|method|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\helpers\PlayerHelper.java|577|583|Player|class|org.spongepowered.api.entity.living.player.Player
+      @|sandbox\helpers\PlayerHelper.java|592|599|BanType|class|org.spongepowered.api.util.ban.BanType
+      @|sandbox\helpers\PlayerHelper.java|609|613|Text|class|org.spongepowered.api.text.Text
+      @|sandbox\helpers\PlayerHelper.java|639|649|BanService|class|org.spongepowered.api.service.ban.BanService
+      @|sandbox\helpers\PlayerHelper.java|663|669|Sponge|class|org.spongepowered.api.Sponge
+      @|sandbox\helpers\PlayerHelper.java|670|687|getServiceManager|method|org.spongepowered.api.Sponge|getServiceManager|()Lorg/spongepowered/api/service/ServiceManager;
+      @|sandbox\helpers\PlayerHelper.java|690|697|provide|method|org.spongepowered.api.service.ServiceManager|provide|(Ljava/lang/Class;)Ljava/util/Optional;
+      @|sandbox\helpers\PlayerHelper.java|698|708|BanService|class|org.spongepowered.api.service.ban.BanService
+      @|sandbox\helpers\PlayerHelper.java|716|719|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|sandbox\helpers\PlayerHelper.java|731|734|Ban|class|org.spongepowered.api.util.ban.Ban
+      @|sandbox\helpers\PlayerHelper.java|741|744|Ban|class|org.spongepowered.api.util.ban.Ban
+      @|sandbox\helpers\PlayerHelper.java|745|752|builder|method|org.spongepowered.api.util.ban.Ban|builder|()Lorg/spongepowered/api/util/ban/Ban$Builder;
+      @|sandbox\helpers\PlayerHelper.java|755|759|type|method|org.spongepowered.api.util.ban.Ban.Builder|type|(Lorg/spongepowered/api/util/ban/BanType;)Lorg/spongepowered/api/util/ban/Ban$Builder;
+      @|sandbox\helpers\PlayerHelper.java|760|767|banType|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|banType|1
+      @|sandbox\helpers\PlayerHelper.java|769|776|profile|method|org.spongepowered.api.util.ban.Ban.Builder|profile|(Lorg/spongepowered/api/profile/GameProfile;)Lorg/spongepowered/api/util/ban/Ban$Builder;
+      @|sandbox\helpers\PlayerHelper.java|777|783|player|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|player|0
+      @|sandbox\helpers\PlayerHelper.java|784|794|getProfile|method|org.spongepowered.api.entity.living.player.User|getProfile|()Lorg/spongepowered/api/profile/GameProfile;
+      @|sandbox\helpers\PlayerHelper.java|798|804|reason|method|org.spongepowered.api.util.ban.Ban.Builder|reason|(Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/util/ban/Ban$Builder;
+      @|sandbox\helpers\PlayerHelper.java|805|814|banReason|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|banReason|2
+      @|sandbox\helpers\PlayerHelper.java|816|821|build|method|org.spongepowered.api.util.ban.Ban.Builder|build|()Lorg/spongepowered/api/util/ban/Ban;
+      @|sandbox\helpers\PlayerHelper.java|844|850|addBan|method|org.spongepowered.api.service.ban.BanService|addBan|(Lorg/spongepowered/api/util/ban/Ban;)Ljava/util/Optional;
+      @|sandbox\helpers\PlayerHelper.java|865|871|player|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|player|0
+      @|sandbox\helpers\PlayerHelper.java|872|876|kick|method|org.spongepowered.api.entity.living.player.Player|kick|(Lorg/spongepowered/api/text/Text;)V
+      @|sandbox\helpers\PlayerHelper.java|877|886|banReason|param|sandbox.helpers.PlayerHelper|banPlayer|(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V|banReason|2
+   Method End: banPlayer(Lorg/spongepowered/api/entity/living/player/Player;Lorg/spongepowered/api/util/ban/BanType;Lorg/spongepowered/api/text/Text;)V
+   Method Start: getModDataList(Ljava/util/Map;)Ljava/util/List;
+      @|sandbox\helpers\PlayerHelper.java|963|974|mapDataList|param|sandbox.helpers.PlayerHelper|getModDataList|(Ljava/util/Map;)Ljava/util/List;|mapDataList|0
+      @|sandbox\helpers\PlayerHelper.java|915|919|List|class|java.util.List
+      @|sandbox\helpers\PlayerHelper.java|920|926|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|928|942|getModDataList|method|sandbox.helpers.PlayerHelper|getModDataList|(Ljava/util/Map;)Ljava/util/List;
+      @|sandbox\helpers\PlayerHelper.java|943|946|Map|class|java.util.Map
+      @|sandbox\helpers\PlayerHelper.java|947|953|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|955|961|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|990|994|List|class|java.util.List
+      @|sandbox\helpers\PlayerHelper.java|995|1001|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1017|1022|Lists|class|com.google.common.collect.Lists
+      @|sandbox\helpers\PlayerHelper.java|1023|1035|newArrayList|method|com.google.common.collect.Lists|newArrayList|()Ljava/util/ArrayList;
+      @|sandbox\helpers\PlayerHelper.java|1052|1061|Map.Entry|class|java.util.Map.Entry
+      @|sandbox\helpers\PlayerHelper.java|1062|1068|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1070|1076|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1084|1095|mapDataList|param|sandbox.helpers.PlayerHelper|getModDataList|(Ljava/util/Map;)Ljava/util/List;|mapDataList|0
+      @|sandbox\helpers\PlayerHelper.java|1096|1104|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|sandbox\helpers\PlayerHelper.java|1142|1145|add|method|java.util.Collection|add|(Ljava/lang/Object;)Z
+      @|sandbox\helpers\PlayerHelper.java|1150|1156|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+   Method End: getModDataList(Ljava/util/Map;)Ljava/util/List;
+   Method Start: getPlayerMods(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;
+      @|sandbox\helpers\PlayerHelper.java|1258|1264|player|param|sandbox.helpers.PlayerHelper|getPlayerMods|(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;|player|0
+      @|sandbox\helpers\PlayerHelper.java|1224|1228|List|class|java.util.List
+      @|sandbox\helpers\PlayerHelper.java|1229|1235|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1237|1250|getPlayerMods|method|sandbox.helpers.PlayerHelper|getPlayerMods|(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;
+      @|sandbox\helpers\PlayerHelper.java|1251|1257|Player|class|org.spongepowered.api.entity.living.player.Player
+      @|sandbox\helpers\PlayerHelper.java|1280|1297|NetworkDispatcher|class|net.minecraftforge.fml.common.network.handshake.NetworkDispatcher
+      @|sandbox\helpers\PlayerHelper.java|1320|1334|EntityPlayerMP|class|net.minecraft.entity.player.EntityPlayerMP
+      @|sandbox\helpers\PlayerHelper.java|1336|1342|player|param|sandbox.helpers.PlayerHelper|getPlayerMods|(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;|player|0
+      @|sandbox\helpers\PlayerHelper.java|1344|1354|connection|field|net.minecraft.entity.player.EntityPlayerMP|connection
+      @|sandbox\helpers\PlayerHelper.java|1355|1365|netManager|field|net.minecraft.network.NetHandlerPlayServer|netManager
+      @|sandbox\helpers\PlayerHelper.java|1366|1373|channel|method|net.minecraft.network.NetworkManager|channel|()Lio/netty/channel/Channel;
+      @|sandbox\helpers\PlayerHelper.java|1376|1380|attr|method|io.netty.util.AttributeMap|attr|(Lio/netty/util/AttributeKey;)Lio/netty/util/Attribute;
+      @|sandbox\helpers\PlayerHelper.java|1381|1398|NetworkDispatcher|class|net.minecraftforge.fml.common.network.handshake.NetworkDispatcher
+      @|sandbox\helpers\PlayerHelper.java|1399|1413|FML_DISPATCHER|field|net.minecraftforge.fml.common.network.handshake.NetworkDispatcher|FML_DISPATCHER
+      @|sandbox\helpers\PlayerHelper.java|1415|1418|get|method|io.netty.util.Attribute|get|()Ljava/lang/Object;
+      @|sandbox\helpers\PlayerHelper.java|1430|1433|Map|class|java.util.Map
+      @|sandbox\helpers\PlayerHelper.java|1434|1440|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1441|1447|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1484|1494|getModList|method|net.minecraftforge.fml.common.network.handshake.NetworkDispatcher|getModList|()Ljava/util/Map;
+      @|sandbox\helpers\PlayerHelper.java|1506|1510|List|class|java.util.List
+      @|sandbox\helpers\PlayerHelper.java|1511|1517|String|class|java.lang.String
+      @|sandbox\helpers\PlayerHelper.java|1535|1549|getModDataList|method|sandbox.helpers.PlayerHelper|getModDataList|(Ljava/util/Map;)Ljava/util/List;
+   Method End: getPlayerMods(Lorg/spongepowered/api/entity/living/player/Player;)Ljava/util/List;
+Class End  : sandbox.helpers.PlayerHelper
+endProcessing "sandbox\helpers\PlayerHelper.java"
+

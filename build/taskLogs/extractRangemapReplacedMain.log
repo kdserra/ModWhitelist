@@ -1,0 +1,25 @@
+Symbol range map extraction starting
+Processing 6 files
+startProcessing "sandbox\ModWhitelist.java" md5: 6b9d2e2f7033fa5319ba4223682a57a8
+Cache Hit!
+endProcessing "sandbox\ModWhitelist.java"
+
+startProcessing "sandbox\Sandbox.java" md5: eb1fbfd98cdb3a9eddbced59622d16e1
+Cache Hit!
+endProcessing "sandbox\Sandbox.java"
+
+startProcessing "sandbox\commands\Commands.java" md5: c88df2153a27469eda7cf79a168a69fe
+Cache Hit!
+endProcessing "sandbox\commands\Commands.java"
+
+startProcessing "sandbox\commands\HelpCommand.java" md5: fdd566929fe794c78f3e0f3694240c99
+Cache Hit!
+endProcessing "sandbox\commands\HelpCommand.java"
+
+startProcessing "sandbox\helpers\CommandHelper.java" md5: a984f44180cfd91a7ce370125e5d871c
+endProcessing "sandbox\helpers\CommandHelper.java"
+
+startProcessing "sandbox\helpers\PlayerHelper.java" md5: 8a1f76f01e8c82c4e52a6319a9d90c05
+Cache Hit!
+endProcessing "sandbox\helpers\PlayerHelper.java"
+
