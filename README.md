@@ -6,7 +6,7 @@ Minecraft Sponge-Forge plugin to restrict mods to a preset list of mods.
 
 This mod is in early development, it can still be used if you can figure out how to use it.
 
-ModWhitelist is a fork of [rodel77's](#https://github.com/rodel77) Sponge-Forge plugin [ModBanner](#https://github.com/rodel77/ModBanner).
+ModWhitelist is a fork of [rodel77's](https://github.com/rodel77) Sponge-Forge plugin [ModBanner](https://github.com/rodel77/ModBanner).
 
 # Download
 
