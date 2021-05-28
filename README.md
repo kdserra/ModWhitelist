@@ -32,9 +32,13 @@ whitelist=[]
 ```
 
 Ban - Automatically auto-ban users who join with a modified client.
+
 Delay - How long to wait before kicking the player, in milliseconds.
+
 Identical - Require identical load order, useful to detect hacked clients who spoof their names.
+
 Msg - The ban message the player will see.
+
 Whitelist - The list of mod names to permit.
 
 # Commands
